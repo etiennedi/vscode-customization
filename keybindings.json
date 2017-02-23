@@ -10,6 +10,6 @@
     },
     {
         "key": "cmd+l",
-        "command": "editor.action.focusNextGroup"
+        "command": "editor.action.formatDocument"
     }
 ]
