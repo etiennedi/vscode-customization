@@ -1,18 +1,15 @@
 // Place your key bindings in this file to overwrite the defaults
 [
     {
-        "key": "ctrl+k",
-				"mac": "cmd+k",
+        "key": "cmd+k",
         "command": "workbench.action.openNextRecentlyUsedEditorInGroup"
     },
     {
-        "key": "ctrl+j",
-				"mac": "cmd+j",
+        "key": "cmd+j",
         "command": "workbench.action.openPreviousRecentlyUsedEditorInGroup"
     },
     {
-        "key": "ctrl+l",
-				"mac": "cmd+l",
+        "key": "cmd+l",
         "command": "editor.action.formatDocument"
     }
 ]
