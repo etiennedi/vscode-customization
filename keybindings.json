@@ -1,5 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
+    // Moving around
     {
         "key": "cmd+k",
         "command": "workbench.action.nextEditor"
@@ -8,8 +9,16 @@
         "key": "cmd+j",
         "command": "workbench.action.previousEditor"
     },
+
+    // Auto-format code
     {
         "key": "cmd+l",
         "command": "editor.action.formatDocument"
+    },
+
+    // Refactor name
+    {
+        "key": "cmd+shift+r",
+        "command": "editor.action.rename"
     }
 ]
