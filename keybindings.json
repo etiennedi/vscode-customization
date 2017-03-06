@@ -24,6 +24,8 @@
         "key": "cmd+alt+n",
         "command": "extension.advancedNewFile"
     },
+
+    // START VIM-like navigation in explorer view
     {
         "key": "cmd+e",
         "command": "workbench.view.explorer"
@@ -53,4 +55,5 @@
         "command": "list.expand",
         "when": "listFocus"
     }
+    // END VIM-like navigation in explorer view
 ]
