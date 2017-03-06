@@ -13,12 +13,17 @@
     // Auto-format code
     {
         "key": "cmd+l",
-        "command": "editor.action.formatDocument"
+        "command": "eslint.executeAutofix"
     },
 
     // Refactor name
     {
         "key": "cmd+shift+r",
         "command": "editor.action.rename"
+    },
+
+    {
+        "key": "cmd+alt+n",
+        "command": "extension.advancedNewFile"
     }
 ]
