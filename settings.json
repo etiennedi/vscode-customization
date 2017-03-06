@@ -15,5 +15,8 @@
     },
 
     // Terminal Settings
-    "terminal.external.osxExec": "Hyper.app"
+    "terminal.external.osxExec": "Hyper.app",
+    "typescript.check.tscVersion": false,
+    "git.confirmSync": false,
+    "workbench.iconTheme": "material-icon-theme"
 }
