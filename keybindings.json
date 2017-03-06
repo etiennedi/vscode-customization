@@ -9,21 +9,48 @@
         "key": "cmd+j",
         "command": "workbench.action.previousEditor"
     },
-
     // Auto-format code
     {
         "key": "cmd+l",
         "command": "eslint.executeAutofix"
     },
-
     // Refactor name
     {
         "key": "cmd+shift+r",
         "command": "editor.action.rename"
     },
-
+    // Advanced New File
     {
         "key": "cmd+alt+n",
         "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "cmd+e",
+        "command": "workbench.view.explorer"
+    },
+    {
+        "key": "j",
+        "command": "list.focusDown",
+        "when": "listFocus"
+    },
+    {
+        "key": "k",
+        "command": "list.focusUp",
+        "when": "listFocus"
+    },
+    {
+        "key": "o",
+        "command": "list.select",
+        "when": "listFocus"
+    },
+    {
+        "key": "h",
+        "command": "list.collapse",
+        "when": "listFocus"
+    },
+    {
+        "key": "l",
+        "command": "list.expand",
+        "when": "listFocus"
     }
 ]
