@@ -1,6 +1,6 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    // Moving around
+    // Moving around inside an editor (tabs)
     {
         "key": "cmd+k",
         "command": "workbench.action.nextEditor"
@@ -8,6 +8,16 @@
     {
         "key": "cmd+j",
         "command": "workbench.action.previousEditor"
+    },
+
+    // Moving around between editors
+    {
+        "key": "cmd+shift+j",
+        "command":"workbench.action.focusPreviousGroup"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command":"workbench.action.focusNextGroup"
     },
     // Auto-format code
     {
